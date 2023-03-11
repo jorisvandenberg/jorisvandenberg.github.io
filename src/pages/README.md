@@ -16,7 +16,7 @@ In the open source world, i ended up with 3 choices:
 * webalizer
 * goaccess
 
-all other tools seem to be worthless or paying. And those 3 were either allmost unmaintained, or not really what i wanted.  
+All other tools seem to be worthless or paying. And those 3 were either allmost unmaintained, or not really what i wanted.  
 So i tought to myself: why not add one more :smile:
 
 ## Visual schema
