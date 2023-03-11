@@ -1,4 +1,6 @@
-# apachelogparser
+---
+title: apachelogparser
+---
 
 [![Go](https://github.com/jorisvandenberg/apachelogparser/actions/workflows/go.yml/badge.svg)](https://github.com/jorisvandenberg/apachelogparser/actions/workflows/go.yml) [![issues - apachelogparser](https://img.shields.io/github/issues/jorisvandenberg/apachelogparser)](https://github.com/jorisvandenberg/apachelogparser/issues)  
 [![GitHub release](https://img.shields.io/github/release/jorisvandenberg/apachelogparser?include_prereleases=&sort=semver&color=blue)](https://github.com/jorisvandenberg/apachelogparser/releases/) [![License](https://img.shields.io/badge/License-apache2.0-blue)](#license) [![Made with Go](https://img.shields.io/badge/Go-1-blue?logo=go&logoColor=white)](https://golang.org "Go to Go homepage") [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/ "Go to Linux homepage") [![Made with SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html "Go to SQLite homepage")  
