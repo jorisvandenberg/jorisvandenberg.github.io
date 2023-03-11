@@ -7,7 +7,7 @@ title: apachelogparser
 **important: this project is currently in pre-alpha... Some parts work, others don't!!! It's useless to open issues at this point since everything is a work in progress!!!**  
 combined logfile from apache parsing, putting all data in sqlite and visualising said data
 
-## About The Project
+## About This Project
 
 I had an apache webserver running... All default... Combined log format... And i wanted some stats.  
 In the open source world, i ended up with 3 choices:  
