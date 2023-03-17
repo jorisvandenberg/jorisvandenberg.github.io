@@ -54,6 +54,11 @@ linegraph_compare4weeks_index_order = 15
 > the main switch is "enabled". If you put this one to "false", your stats simply won't be created
 > there is a subswitch to enable/disable table_enabled, linegraph_enabled and linegraph_compare4weeks_enabled (hopefully, more to come in the future!)
 
+## get the arguments
+
+* open get_args.go
+* add an argblock (around line 330)
+
 ## actually generate the stats
 
 * open stats_generate.go and add a codeblock:
