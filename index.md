@@ -40,6 +40,28 @@ cd apachelogparser
 go build .
 ```
 
+### installing a pre-compiled binary
+
+* visit the [releases page](https://github.com/jorisvandenberg/apachelogparser/releases)
+* download the latest release in 
+  * binary format (apachelogparser-vx.x.x-linux-amd64.tar.gz) or (apachelogparser-vx.x.x-windows-amd64.tar.gz) _the windows version is currently untested_
+  * rpm (install with `rpm -Uvh package.rpm`)
+  * deb (install with `dpkg -i package.deb`)
+
+if you download the binary, you'll manually have to create the config directory /etc/apachelogparser and put the config.ini and template_config.ini from the repository in said directory. If you used an installer, this step will be executed for you
+
+### creating the config.ini
+
+the tool has a "wizard" included. Currently it's a very basic wizard tough! 
+
+```bash
+apachelogparser -iniwizard
+```
+
+you'll be prompted wether or not you want a minimal install... currently the default is "n", but for a first time user, answering "y" might not be such a bad idear :wink:
+
+the questions from the minimal install wizard are _really_ basic, and should be trivial for anyone that is competent to run this parser
+
 ### Prerequisites
 
 * go
