@@ -17,7 +17,8 @@ In the open source world, i ended up with 3 choices:
 * goaccess
 
 All other tools seem to be worthless or paying. And those 3 were either allmost unmaintained, or not really what i wanted.  
-So i tought to myself: why not add one more :smile:
+So i tought to myself: why not add one more :smile:  
+_remark_: there are tons of tools that are better than my tool... Personally, i'm a big fan of matomo and google analytics. However, these tools need to be "installed" on your site (trough a call in the head section of your page, or directly into the code,...). This tool does not give you the in-depth analysis matomo or GA give you, but it works on the raw log files. The benefit of this is that you do not need to install anything on your site and you capture all requests that reach your server (whilst, running GA or an equivalent tool might miss calls to pages that don't have their tracking code installed)
 
 ## Visual schema
 
@@ -29,7 +30,15 @@ golang
 
 ## Getting Started
 
-It's a go program, vendoring included... just clone it, verify the sourcecode, build and run... Or use my precompiled binary's.
+### compiling from source
+
+It's a go program, vendoring included... just clone it, verify the sourcecode, build and run...
+
+```bash
+git clone git@github.com:jorisvandenberg/apachelogparser.git
+cd apachelogparser
+go build .
+```
 
 ### Prerequisites
 
