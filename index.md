@@ -103,6 +103,14 @@ Other than that: it's up to your OS... Crontab, systemd scheduling, scheduled ta
 ./apachelogparser
 ```
 
+## Dev links
+
+if you're interested in helping out... these might be usefull for you:
+
+* i accept pull requests... If you have a usefull stat to add:
+  * [here](Howtoaddnewstats.html) is detailed how you would do this
+  * [here](Naming_conventions.html) is a (very basic) naming convention guide on how to name config, sql statements and output files
+
 ## License
 
 Distributed under the Apache2.0 License.
