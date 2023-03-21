@@ -21,7 +21,7 @@ querymap["stmt_queryname"] = " SELECT col1,col2 from table where col3 = ?"
 
 ## config
 
-* open config.ini and add a section for your new stat. Here's an example: 
+* open template_config.ini and add a section for your new stat. Here's an example: 
 
 ```ini
 [name_of_your_stat]
@@ -53,6 +53,13 @@ linegraph_compare4weeks_index_order = 15
 
 > the main switch is "enabled". If you put this one to "false", your stats simply won't be created
 > there is a subswitch to enable/disable table_enabled, linegraph_enabled and linegraph_compare4weeks_enabled (hopefully, more to come in the future!)
+
+* copy template_config.ini to config.ini and remove the commented out lines
+
+```bash
+cp template_config.ini config.ini
+sed -i '/^;/d' config.ini
+```
 
 ## get the arguments
 
